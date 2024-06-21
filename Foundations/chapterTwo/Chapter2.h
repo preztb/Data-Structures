@@ -9,7 +9,7 @@
 
 class Chapter2 {
 public:
-    void insertionSort(int* A, int n) {
+    static void insertionSort(int* A, int n) {
         for(int i = 1; i < n; i++) {
             int key = A[i];
             int j = i - 1;
@@ -21,7 +21,7 @@ public:
         }
     }
 
-    void printArray(int* A, int n)
+    static void printArray(int* A, int n)
     {
         int i;
         for (i = 0; i < n; i++)
