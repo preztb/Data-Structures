@@ -12,6 +12,11 @@ int main() {
 
     b.insertionSort(n, 23);
     b.printArray(n,23);
+
+
+
+
+
 }
 
 
