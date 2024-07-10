@@ -66,7 +66,7 @@ public:
         for (int i = 0; i < size; i++)
             std::cout << A[i] << " ";
         std::cout << std::endl;
-    }
+    } //work on chapter 2 problems on page 40-48
 
 };
 
